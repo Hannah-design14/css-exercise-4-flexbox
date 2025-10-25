@@ -1,43 +1,31 @@
 body {
-    background-color: royalblue;
+    background-color: antiquewhite;
 }
+
 .header {
     max-width: 600px;
     margin: auto;
-    background-color:antiquewhite;
-}
-
-.top-header {
+    background-color:green;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-}
-
-.main-nav {
-    display: flex;
-    list-style-type: none;
-    padding: 20;
-    justify-content: center;
-}
-
-.nav-item {
-    margin: 0 10px;
+    padding: 0px;
 }
 
 .main-content {
     display: flex;
     background-color: antiquewhite;
-    max-width: 600px;
     margin: auto;
+    justify-content: 20px;
 }
 
 .main {
+    max-width: 600px;
     padding: 20px;
     background-color: blue;
 }
 
 .side-nav {
+    max-width: 600px;
     padding: 20px;
     background-color: blueviolet;
     margin-right: 20px;
