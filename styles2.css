@@ -1,0 +1,31 @@
+body {
+    background-color:gray;
+}
+
+.whole-page {
+    max-width: 600px;
+    margin: auto;
+}
+
+.header {
+    background-color:blue;
+}
+
+.side-bar {
+    background-color: pink;
+    padding: 20px;
+    margin-left: 10px;
+}
+
+.main-info {
+    background-color:green;
+}
+
+.footer {
+    background-color: purple;
+}
+
+.middle-content {
+    display: flex;
+    flex-direction: row-reverse;
+}

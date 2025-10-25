@@ -6,67 +6,67 @@
         <title>Pets: About Fish</title>
         <link href="styles1.css" rel="stylesheet" type="text/css">
     </head>
-    <body>
+    <body> 
+        <div class="page-content">
+            <header class="header">
+                <div>
+                    <h1>Pets</h1>
+                    <p>Everyone's best friends</p>
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="">Home</a>
+                            </li>
+                            <li>
+                                <a href="">Dogs</a>
+                            </li>
+                            <li>
+                                <a href="">Cats</a>
+                            </li>
+                            <li>
+                                <a href="">Fish</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
 
-    <header class="header">
-        <div>
-            <h1>Pets</h1>
-            <p>Everyone's best friends</p>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="">Home</a>
-                    </li>
-                    <li>
-                        <a href="">Dogs</a>
-                    </li>
-                    <li>
-                        <a href="">Cats</a>
-                    </li>
-                    <li>
-                        <a href="">Fish</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+            <main class="middle">
+                <aside class="side-nav">
+                    <h2>Quick Links for Fish</h2>
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="">Fresh Water</a>
+                            </li>
+                            <li>
+                                <a href="">Salt Water</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </aside>
 
-    <main class="main-conent">
-        <aside class="side-nav">
-            <h2>Quick Links for Fish</h2>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="">Fresh Water</a>
-                    </li>
-                    <li>
-                        <a href="">Salt Water</a>
-                    </li>
-                </ul>
-            </nav>
-        </aside>
+                <article class="main">
+                    <h2>About Fish</h2>
+                    <p>This page is about fish.</p>
+                    <p>This page is using <code>display: flex</code> to create the two-column sidebar in a fixed-width layout. To create this layout you need to add:</p>
+                    <ul>
+                        <li>All the proper layout ids (<code>banner, menu, sidebar, colophon</code>) added to their proper tags</li>
+                        <li>A <code>div</code> to create the livespace with the id of <code>wrapper</code></li>
+                        <li>A <code>div</code> to create the "flex container" which encompasses the <code>aside</code> and the <code>main</code> as the two columns</li> 
+                        <li>Set widths in sidebar and main that equal 100%, then us <code>gap</code> property in the flex container to create a space between them.</li>
+                    </ul>
+                    <p>You can learn more about setting up your aquarium, and whether fresh water or salt water fish are the best fit for you! Keep in mind that fresh water fish are easier to care for, which is important. Keeping fish healthy is a lot harder than you would think.</p>
+                </article>
+            </main>
 
-        <article class="main">
-            <h2>About Fish</h2>
-            <p>This page is about fish.</p>
-            <p>This page is using <code>display: flex</code> to create the two-column sidebar in a fixed-width layout. To create this layout you need to add:</p>
+            <footer class="header">
             <ul>
-                <li>All the proper layout ids (<code>banner, menu, sidebar, colophon</code>) added to their proper tags</li>
-                <li>A <code>div</code> to create the livespace with the id of <code>wrapper</code></li>
-                <li>A <code>div</code> to create the "flex container" which encompasses the <code>aside</code> and the <code>main</code> as the two columns</li> 
-                <li>Set widths in sidebar and main that equal 100%, then us <code>gap</code> property in the flex container to create a space between them.</li>
+                <li><a href="">facebook</a></li>
+                <li><a href="">instagram</a></li>
+                <li><a href="">twitter</a></li>
             </ul>
-            <p>You can learn more about setting up your aquarium, and whether fresh water or salt water fish are the best fit for you! Keep in mind that fresh water fish are easier to care for, which is important. Keeping fish healthy is a lot harder than you would think.</p>
-        </article>
-    </main>
-
-    <footer class="header">
-    <ul>
-	    <li><a href="">facebook</a></li>
-	    <li><a href="">instagram</a></li>
-	    <li><a href="">twitter</a></li>
-    </ul>
-    </footer>
-
+            </footer>
+        </div>
     </body>
 </html>
