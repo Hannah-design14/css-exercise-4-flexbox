@@ -1,0 +1,44 @@
+body {
+    background-color: royalblue;
+}
+.header {
+    max-width: 600px;
+    margin: auto;
+    background-color:antiquewhite;
+}
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.main-nav {
+    display: flex;
+    list-style-type: none;
+    padding: 20;
+    justify-content: center;
+}
+
+.nav-item {
+    margin: 0 10px;
+}
+
+.main-content {
+    display: flex;
+    background-color: antiquewhite;
+    max-width: 600px;
+    margin: auto;
+}
+
+.main {
+    padding: 20px;
+    background-color: blue;
+}
+
+.side-nav {
+    padding: 20px;
+    background-color: blueviolet;
+    margin-right: 20px;
+}
